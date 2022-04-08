@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+.navbar-nav{
+  letter-spacing: 2px;
+}
+#navbarDropdownMenuLink{
+  text-decoration: none;
+  color: white;
+}
+ /* #registration-form{
+    max-width: 500px;
+    position: absolute;
+    right: 1%;
+    bottom: 0px;
+      }
+ */
+
+#registration-form{
+    max-width: 500px;
+    position: absolute;
+    right: 1%;
+    top: 15%;
+      }
+
+      @media screen and (max-width: 767px) {
+       #registration-form{
+        position:relative;
+    
+        }
+       }
+      /*  @media screen and (max-width: 1000px) {
+       #registration-form{
+        position:relative;
+        bottom:0%;
+        }
+       }
+
+*/
